@@ -30,7 +30,7 @@ function main() {
     // load fbx model and texture                                               
     const objs = [];
     const loader = new THREE.FBXLoader();
-    loader.load("models/Samba_Dancing.fbx", model => {
+    loader.load("models/uploads_files_3970193_earth.fbx", model => {
         model.scale.set(0.15, 0.15, 0.15);
         // model is a THREE.Group (THREE.Object3D)                              
         const mixer = new THREE.AnimationMixer(model);
